@@ -1,0 +1,12 @@
+CREATE TABLE coisa(
+    id serial PRIMARY KEY,
+    nome VARCHAR(50),
+    quantidade INTEGER
+);
+
+INSERT INTO coisa (id, nome, quantidade) VALUES (1, 'banana', 150);
+INSERT INTO coisa (id, nome, quantidade) VALUES (2, 'laranja', 154); 
+
+SELECT * FROM coisa;
+                   
+                   
